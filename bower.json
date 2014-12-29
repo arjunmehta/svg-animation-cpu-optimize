@@ -5,7 +5,7 @@
     "authors": [
         "Arjun Mehta <arjunmeht@gmail.com>"
     ],
-    "description": "A javascript module to optimize svg animations to consume less cpu cycles and less energy when embedded in HTML.",
+    "description": "A javascript module to optimize the playback of svg animations to consume less cpu cycles and use less energy when embedded in HTML",
     "main": "svg-anim-opt.js",
     "keywords": [
         "svg",

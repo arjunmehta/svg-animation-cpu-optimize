@@ -1,7 +1,7 @@
 svg-animation-cpu-optimize
 ==========================
 
-A javascript module to optimize svg animations to consume less cpu cycles and less energy when embedded in HTML.
+A javascript module to optimize the playback of svg animations to consume less cpu cycles and use less energy when embedded in HTML.
 
 ## Efficiency
 Animated SVG files are an extremely useful and powerful online communication tool. **Scalable*** animated diagrams and images are highly sought after for information visualization and animated SVGs (using SMIL instructions) can be entirely self-contained.
