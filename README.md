@@ -8,12 +8,14 @@ Animated SVG files are an extremely useful and powerful online communication too
 
 While most modern browsers (with the exception of IE) do an amazing job displaying SVG animations, there are a few issues with processor usage and thus energy consumption.
 
+### Main Functions
 This library helps resolve added CPU consumption by controlling Animated SVGs embedded in an HTML page:
-- Synchronizes all SVG animations to their beginning on page load.
-- Pauses all animations that do not appear on screen.
-- Plays animations when they appear on screen, and pauses them again when they leave the screen (on scroll)
-- Group animations that need to be synchronized as they appear/disappear from view
-- Pauses all animations when the page is no longer visible (ie. changing tabs)
+
+- **Synchronizes all SVG animations to their beginning on page load**
+- **Pauses all animations that do not appear on screen**
+- **Plays animations when they appear on screen, and pauses them again when they leave the screen (on scroll)**
+- **Group animations that need to be synchronized as they appear/disappear from view**
+- **Pauses all animations when the page is no longer visible (ie. changing tabs)**
 
 
 
