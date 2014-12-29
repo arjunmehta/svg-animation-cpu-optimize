@@ -4,7 +4,7 @@ svg-animation-cpu-optimize
 A javascript module to optimize the playback of svg animations to consume less cpu cycles and use less energy when embedded in HTML.
 
 ## Efficiency
-Animated SVG files are an extremely useful and powerful online communication tool. **Scalable*** animated diagrams and images are highly sought after for information visualization and animated SVGs (using SMIL instructions) can be entirely self-contained.
+Animated SVG files are an extremely useful and powerful online communication tool. **Scalable** animated diagrams and images are highly sought after for information visualization and animated SVGs (using SMIL instructions) can be entirely self-contained.
 
 While most modern browsers (with the exception of IE) do an amazing job displaying SVG animations, there are a few issues with processor usage and thus energy consumption.
 
@@ -35,10 +35,10 @@ This script depends on the [Waypoints library](https://github.com/imakewebthings
 
 ### Including Dependencies
 ```html
-<script src="waypoints/noframework.waypoints.min.js" type="text/javascript"/>
-<script src="waypoints/shortcuts/inview.min.js" type="text/javascript"/>
+<script src="bower_components/waypoints/lib/noframework.waypoints.min.js" type="text/javascript"/>
+<script src="bower_components/waypoints/lib/shortcuts/inview.min.js" type="text/javascript"/>
 
-<script src="svg-anim-opt.js" type="text/javascript"/>
+<script src="bower_components/svg-animation-cpu-optimize/svg-anim-opt.js" type="text/javascript"/>
 ```
 
 ### Embedding SVG Animations
