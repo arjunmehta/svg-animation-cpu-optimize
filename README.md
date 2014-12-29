@@ -45,15 +45,15 @@ This script depends on the [Waypoints library](https://github.com/imakewebthings
 Now every SVG Animation `object` you have embedded will be controlled by the library. Just make sure that your `object` has `type="image/svg+xml"`.
 
 ```html
-<object data="/img/time/time_continuum_anim.svg" type="image/svg+xml"></object>
+<object data="/img/svganim.svg" type="image/svg+xml"></object>
 ```
 
 ### Grouping SVG Animations
 Sometimes you might want to make sure that SVG animations are paused and unpaused together as they appear/disappear from the screen. To do this, just add the `data-svg-anim-group` attribute with a unique group name to your html `object`.
 
 ```html
-<object data-svg-anim-group="groupA" data="/img/geohash/geohash_zoom-01.svg" type="image/svg+xml"></object>
-<object data-svg-anim-group="groupA" data="/img/geohash/geohash_range-01a.svg" type="image/svg+xml"></object>
+<object data-svg-anim-group="groupA" data="/img/svganim-Part1.svg" type="image/svg+xml"></object>
+<object data-svg-anim-group="groupA" data="/img/svganim-Part2.svg" type="image/svg+xml"></object>
 ```
 
 ## License
