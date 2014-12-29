@@ -1,0 +1,29 @@
+{
+  "name": "svg-animation-cpu-optimize",
+  "version": "0.0.0",
+  "homepage": "https://github.com/arjunmehta/svg-animation-cpu-optimize",
+  "authors": [
+    "Arjun Mehta <arjunmeht@gmail.com>"
+  ],
+  "description": "A javascript module to optimize svg animations to consume less cpu cycles and less energy when embedded in HTML.",
+  "main": "svg-anim-opt.js",
+  "keywords": [
+    "svg",
+    "animation",
+    "SMIL",
+    "optimization",
+    "control",
+    "cpu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "waypoints": "~3.0.1"
+  }
+}
