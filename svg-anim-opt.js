@@ -84,7 +84,6 @@
         }
     }
 
-
     function placeInSVGGroup(svg) {
         var group = svg.dataset.svgAnimGroup;
         if (group !== undefined) {
