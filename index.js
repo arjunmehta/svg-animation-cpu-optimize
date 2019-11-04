@@ -2,6 +2,8 @@ require('waypoints/lib/noframework.waypoints');
 require('waypoints/lib/shortcuts/inview');
 
 var init = function() {
+  console.log('Optimizing SVG elements');
+
   var points = [];
   var svgAnimations;
   var svgAnimationGroups = {};
@@ -146,4 +148,4 @@ var init = function() {
   }
 };
 
-module.exports = init;
+init();
