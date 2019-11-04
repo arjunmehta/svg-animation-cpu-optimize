@@ -1,0 +1,26 @@
+---
+  root: true
+  extends:
+    - "standard"
+  env:
+    es6: false
+    node: true
+  rules:
+    semi:
+      - 2
+      - "always"
+    arrow-parens:
+      - 2
+      - "always"
+    comma-dangle:
+      - 2
+      - "never"
+    no-multiple-empty-lines:
+      - 2
+      - max: 2
+    arrow-body-style: 0
+    no-console: 0
+    space-before-function-paren: 0
+    guard-for-in: 0
+    no-use-before-define: 0
+    class-methods-use-this: 1

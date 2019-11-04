@@ -20,25 +20,19 @@ This library helps reduce CPU consumption by controlling Animated SVGs embedded 
 
 ## Installation
 
-### Using bower
-```bash
-bower install arjunmehta/svg-animation-cpu-optimize
-```
-
 ### Using npm
 ```bash
 npm install arjunmehta/svg-animation-cpu-optimize
 ```
 
 ## Usage
-This script depends on the [Waypoints library](https://github.com/imakewebthings/waypoints/blob/master/lib/noframework.waypoints.min.js) and its [inview shortcut](https://github.com/imakewebthings/waypoints/blob/master/lib/shortcuts/inview.min.js) in order to function. These should be installed when you install the package using `bower` or `npm`. The location of these files will be in either `bower_components/waypoints/lib` or `node_modules/jquer-waypoints/lib`.
+This script depends on the [Waypoints library](https://github.com/imakewebthings/waypoints/blob/master/lib/noframework.waypoints.min.js) and its [inview shortcut](https://github.com/imakewebthings/waypoints/blob/master/lib/shortcuts/inview.min.js) in order to function. These are automatically included when requiring the module into your page.
 
-### Including Dependencies
-```html
-<script src="bower_components/waypoints/lib/noframework.waypoints.min.js" type="text/javascript"/>
-<script src="bower_components/waypoints/lib/shortcuts/inview.min.js" type="text/javascript"/>
+### Global Require
+Simply require the module into your project and it will be included and executed at `window.onload`.
 
-<script src="bower_components/svg-animation-cpu-optimize/svg-anim-opt.js" type="text/javascript"/>
+```javascript
+require('svg-animation-cpu-optimize')
 ```
 
 ### Embedding SVG Animations
