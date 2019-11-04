@@ -2,8 +2,6 @@ require('waypoints/lib/noframework.waypoints');
 require('waypoints/lib/shortcuts/inview');
 
 var init = function() {
-  console.log('Optimizing SVG elements');
-
   var points = [];
   var svgAnimations;
   var svgAnimationGroups = {};
@@ -36,7 +34,6 @@ var init = function() {
   }
 
   function pauseSVG(svg) {
-    // console.log("Pausing", svg);
     svg.contentDocument.documentElement.pauseAnimations();
   }
 
@@ -47,7 +44,9 @@ var init = function() {
   }
 
   function unpauseSVG(svg) {
-    svg.contentDocument.documentElement.unpauseAnimations();
+    if (svg.contentDocument.documentElement) {
+      svg.contentDocument.documentElement.unpauseAnimations();
+    }
   }
 
   function watchSVGLocation(svg) {
@@ -126,7 +125,6 @@ var init = function() {
   }
 
   window.onload = function() {
-    console.log('READY');
     var i, svg;
 
     svgAnimations = document.querySelectorAll('object[type="image/svg+xml"]');
