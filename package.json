@@ -28,7 +28,7 @@
     "waypoints": "github:imakewebthings/waypoints"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
+    "eslint": "^9.39.1",
     "eslint-config-standard": "7.0.1",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "2.1.1"
